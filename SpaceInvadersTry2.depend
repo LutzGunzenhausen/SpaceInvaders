@@ -1,0 +1,248 @@
+# depslib dependency file v1.0
+1462614620 source:d:\daten\dokumente\c++\spaceinvaderstry2\game\game.cpp
+	"Game.h"
+	<chrono>
+	"Game/State/MenuState.hpp"
+	"Common/StaticServiceLocator.h"
+	"Common/Constants.h"
+
+1462607163 d:\daten\dokumente\c++\spaceinvaderstry2\game\game.h
+	"Game/State/MenuState.hpp"
+	"Game/InputMask.hpp"
+
+1462607174 source:d:\daten\dokumente\c++\spaceinvaderstry2\main.cpp
+	"Game/Game.h"
+	"Common/StaticInitializer.hpp"
+
+1462712219 d:\daten\dokumente\c++\spaceinvaderstry2\\game\state\menustate.hpp
+	"Game/State/GameState.h"
+	"Game/State/SpaceInvadersState.hpp"
+	<iostream>
+	"Common/StaticServiceLocator.h"
+	"Common/Graphics/GraphicsService.h"
+	"Game/GameObject.hpp"
+	"Game/ObjectState/GameObjectState.h"
+	"Common/Constants.h"
+	"Common/Graphics/AlignmentUtils.h"
+
+1462435314 d:\daten\dokumente\c++\spaceinvaderstry2\\game\state\gamestate.h
+	"Game/InputMask.hpp"
+
+1462711308 d:\daten\dokumente\c++\spaceinvaderstry2\\game\state\spaceinvadersstate.hpp
+	<iostream>
+	"Game/State/GameState.h"
+	"Game/GameObject.hpp"
+	"Game/Updater.h"
+	"Game/Event/EventListener.h"
+	"Game/Event/Event.h"
+	"Game/HeadsUpDisplay.h"
+
+1462120081 source:d:\daten\dokumente\c++\spaceinvaderstry2\common\servicelocator.cpp
+	"Common/ServiceLocator.h"
+	"Common/Logging/LoggingService.h"
+	"Common/Logging/NullLoggingService.hpp"
+	<iostream>
+
+1462120058 d:\daten\dokumente\c++\spaceinvaderstry2\\common\servicelocator.h
+	"Common/Logging/LoggingService.h"
+
+1462294033 d:\daten\dokumente\c++\spaceinvaderstry2\\common\logging\loggingservice.h
+	<string>
+
+1462120058 d:\daten\dokumente\c++\spaceinvaderstry2\common\servicelocator.h
+	"Common/Logging/LoggingService.h"
+
+1462294036 d:\daten\dokumente\c++\spaceinvaderstry2\common\logging\defaultloggingservice.hpp
+	<string>
+	<iostream>
+	"Common/Logging/LoggingService.h"
+
+1462294038 d:\daten\dokumente\c++\spaceinvaderstry2\\common\logging\nullloggingservice.hpp
+	<string>
+	"Common/Logging/LoggingService.h"
+
+1462129534 d:\daten\dokumente\c++\spaceinvaderstry2\common\servicelocator.hpp
+	"Common/Logging/LoggingService.h"
+	"Common/Logging/NullLoggingService.hpp"
+	<iostream>
+
+1462212238 d:\daten\dokumente\c++\spaceinvaderstry2\\main.cpp
+	"Game/Game.h"
+	<string>
+	"Common/StaticServiceLocator.h"
+
+1462119876 d:\daten\dokumente\c++\spaceinvaderstry2\\game\game.h
+	"Game/State/MenuState.hpp"
+
+1462129534 d:\daten\dokumente\c++\spaceinvaderstry2\\common\servicelocator.hpp
+	"Common/Logging/LoggingService.h"
+	"Common/Logging/NullLoggingService.hpp"
+	<iostream>
+
+1462294036 d:\daten\dokumente\c++\spaceinvaderstry2\\common\logging\defaultloggingservice.hpp
+	<string>
+	<iostream>
+	"Common/Logging/LoggingService.h"
+
+1462131651 d:\daten\dokumente\c++\spaceinvaderstry2\\common\staticservicelocator.hpp
+	"Common/Logging/LoggingService.h"
+	"Common/Logging/NullLoggingService.hpp"
+
+1462131651 d:\daten\dokumente\c++\spaceinvaderstry2\common\staticservicelocator.hpp
+	"Common/Logging/LoggingService.h"
+	"Common/Logging/NullLoggingService.hpp"
+
+1462133207 source:d:\daten\dokumente\c++\spaceinvaderstry2\common\staticservicelocator.cpp
+	"Common/StaticServiceLocator.h"
+	"Common/Logging/LoggingService.h"
+
+1462641146 d:\daten\dokumente\c++\spaceinvaderstry2\\common\staticservicelocator.h
+	"Common/Logging/LoggingService.h"
+	"Common/Graphics/GraphicsService.h"
+	"Common/Physics/PhysicsService.h"
+	"Game/Event/EventBus.h"
+	"Game/Resource/GraphicsResourceStorage.h"
+
+1462290370 d:\daten\dokumente\c++\spaceinvaderstry2\common\staticservicelocator.h
+	"Common/Logging/LoggingService.h"
+	"Common/Graphics/GraphicsService.h"
+
+1462211516 d:\daten\dokumente\c++\spaceinvaderstry2\common\logging\loggingservice.h
+	<string>
+
+1462714802 d:\daten\dokumente\c++\spaceinvaderstry2\common\staticinitializer.hpp
+	"Common/StaticServiceLocator.h"
+	"Common/Logging/NullLoggingService.hpp"
+	"Common/Graphics/SDLGraphicsService.hpp"
+	"Common/Physics/DefaultPhysicsService.hpp"
+	"Game/Resource/GraphicsResourceStorage.h"
+
+1462294038 d:\daten\dokumente\c++\spaceinvaderstry2\common\logging\nullloggingservice.hpp
+	<string>
+	"Common/Logging/LoggingService.h"
+
+1462714434 d:\daten\dokumente\c++\spaceinvaderstry2\\common\graphics\graphicsservice.h
+	<string>
+	"Common/Graphics/GraphicsObject.h"
+	"Game/InputMask.hpp"
+	"Common/Audio/AudioObject.h"
+
+1462711957 d:\daten\dokumente\c++\spaceinvaderstry2\\common\graphics\sdlgraphicsservice.hpp
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<string>
+	"Common/StaticServiceLocator.h"
+	"Common/Constants.h"
+	"Common/Graphics/SDLGraphicsObject.hpp"
+	"Game/ObjectState/EventTriggeringState.h"
+	"Common/Audio/SDLAudioObject.h"
+
+1462710228 d:\daten\dokumente\c++\spaceinvaderstry2\\common\constants.h
+
+1462624291 d:\daten\dokumente\c++\spaceinvaderstry2\\common\graphics\graphicsobject.h
+
+1462714311 d:\daten\dokumente\c++\spaceinvaderstry2\\common\graphics\sdlgraphicsobject.hpp
+	<SDL.h>
+	"Common/Graphics/GraphicsObject.h"
+
+1462703894 d:\daten\dokumente\c++\spaceinvaderstry2\\common\graphics\alignmentutils.h
+	"Common/Constants.h"
+	"Common/Graphics/GraphicsObject.h"
+	"Game/ObjectState/GameObjectState.h"
+	"Game/GameObject.hpp"
+
+1462711067 d:\daten\dokumente\c++\spaceinvaderstry2\\game\inputmask.hpp
+
+1462713752 d:\daten\dokumente\c++\spaceinvaderstry2\\game\updater.h
+	"Game/InputMask.hpp"
+
+1462607929 d:\daten\dokumente\c++\spaceinvaderstry2\\game\playerupdater.h
+	"Game/GameObject.hpp"
+	"Common/Constants.h"
+	"Game/Event/EventBus.h"
+
+1462467464 d:\daten\dokumente\c++\spaceinvaderstry2\\common\physics\physicsservice.h
+	"Game/GameObject.hpp"
+
+1462547968 d:\daten\dokumente\c++\spaceinvaderstry2\\common\physics\defaultphysicsservice.hpp
+	"Common/Physics/PhysicsService.h"
+	"Common/Constants.h"
+
+1462714610 d:\daten\dokumente\c++\spaceinvaderstry2\\game\gameobject.hpp
+	"Game/ObjectState/GameObjectState.h"
+
+1462551251 d:\daten\dokumente\c++\spaceinvaderstry2\game\event\eventbus.h
+	"Game/Event/Event.h"
+
+1462714131 d:\daten\dokumente\c++\spaceinvaderstry2\\game\event\event.h
+	"Common/Constants.h"
+
+1462712426 d:\daten\dokumente\c++\spaceinvaderstry2\\game\event\eventbus.h
+	"Game/Event/Event.h"
+	"Game/Event/EventListener.h"
+
+1462702148 d:\daten\dokumente\c++\spaceinvaderstry2\\game\event\eventlistener.h
+	"Game/Event/Event.h"
+
+1462713709 source:d:\daten\dokumente\c++\spaceinvaderstry2\game\state\spaceinvadersstate.cpp
+	"Game/State/SpaceInvadersState.hpp"
+	"Common/StaticServiceLocator.h"
+	"Game/PlayerUpdater.h"
+	"Game/EnemiesUpdater.h"
+	"Game/State/MenuState.hpp"
+	"Game/ObjectState/GameObjectState.h"
+	"Game/Event/EntityDeadEvent.h"
+	"Game/Event/EnemyFiresBulletEvent.h"
+	"Game/ObjectState/EventTriggeringState.h"
+
+1462710840 d:\daten\dokumente\c++\spaceinvaderstry2\\game\enemiesupdater.h
+	"Common/Constants.h"
+	"Game/Updater.h"
+	"Game/GameObject.hpp"
+	"Common/Graphics/AlignmentUtils.h"
+	"Common/StaticServiceLocator.h"
+	"Game/Event/EnemyFiresBulletEvent.h"
+
+1462714646 d:\daten\dokumente\c++\spaceinvaderstry2\\game\objectstate\gameobjectstate.h
+	"Common/Graphics/GraphicsObject.h"
+	<iostream>
+
+1462631933 d:\daten\dokumente\c++\spaceinvaderstry2\\game\objectstate\eventtriggeringstate.h
+	"Game/ObjectState/GameObjectState.h"
+	"Common/StaticServiceLocator.h"
+
+1462631435 d:\daten\dokumente\c++\spaceinvaderstry2\\game\event\entitydeadevent.h
+	"Game/Event/Event.h"
+
+1462703573 source:d:\daten\dokumente\c++\spaceinvaderstry2\game\objectstate\gameobjectstate.cpp
+	"Game/ObjectState/GameObjectState.h"
+	"Common/Graphics/AlignmentUtils.h"
+	"Common/Graphics/GraphicsObject.h"
+
+1462708759 d:\daten\dokumente\c++\spaceinvaderstry2\\game\resource\graphicsresourcestorage.h
+	"Common/Graphics/GraphicsObject.h"
+	"Common/Audio/AudioObject.h"
+
+1462708787 source:d:\daten\dokumente\c++\spaceinvaderstry2\game\resource\graphicsresourcestorage.cpp
+	"Game/Resource/GraphicsResourceStorage.h"
+	"Common/StaticServiceLocator.h"
+
+1462714592 source:d:\daten\dokumente\c++\spaceinvaderstry2\game\gameobject.cpp
+	"Game/ObjectState/GameObjectState.h"
+	"Common/Graphics/AlignmentUtils.h"
+
+1462646884 d:\daten\dokumente\c++\spaceinvaderstry2\\game\event\enemyfiresbulletevent.h
+	"Game/Event/Event.h"
+
+1462706229 d:\daten\dokumente\c++\spaceinvaderstry2\\common\audio\audioobject.h
+
+1462718508 d:\daten\dokumente\c++\spaceinvaderstry2\\common\audio\sdlaudioobject.h
+	<SDL_mixer.h>
+	"Common/Audio/AudioObject.h"
+
+1462712237 d:\daten\dokumente\c++\spaceinvaderstry2\\game\headsupdisplay.h
+	"Common/StaticServiceLocator.h"
+	"Game/Event/EntityDeadEvent.h"
+

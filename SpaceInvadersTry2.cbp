@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SpaceInvadersTry2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SpaceInvadersTry2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="D:/Daten/Dokumente/C++/SpaceInvadersTry2/" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SpaceInvadersTry2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Common/Audio/AudioObject.h" />
+		<Unit filename="Common/Audio/SDLAudioObject.h" />
+		<Unit filename="Common/Constants.h" />
+		<Unit filename="Common/Graphics/AlignmentUtils.h" />
+		<Unit filename="Common/Graphics/GraphicsObject.h" />
+		<Unit filename="Common/Graphics/GraphicsService.h" />
+		<Unit filename="Common/Graphics/SDLGraphicsObject.hpp" />
+		<Unit filename="Common/Graphics/SDLGraphicsService.hpp" />
+		<Unit filename="Common/Logging/DefaultLoggingService.hpp" />
+		<Unit filename="Common/Logging/LoggingService.h" />
+		<Unit filename="Common/Logging/NullLoggingService.hpp" />
+		<Unit filename="Common/Physics/DefaultPhysicsService.hpp" />
+		<Unit filename="Common/Physics/PhysicsService.h" />
+		<Unit filename="Common/StaticInitializer.hpp" />
+		<Unit filename="Common/StaticServiceLocator.h" />
+		<Unit filename="Game/EnemiesUpdater.h" />
+		<Unit filename="Game/Event/EnemyFiresBulletEvent.h" />
+		<Unit filename="Game/Event/EntityDeadEvent.h" />
+		<Unit filename="Game/Event/Event.h" />
+		<Unit filename="Game/Event/EventBus.h" />
+		<Unit filename="Game/Event/EventListener.h" />
+		<Unit filename="Game/Game.cpp" />
+		<Unit filename="Game/Game.h" />
+		<Unit filename="Game/GameObject.cpp" />
+		<Unit filename="Game/GameObject.hpp" />
+		<Unit filename="Game/HeadsUpDisplay.h" />
+		<Unit filename="Game/InputMask.hpp" />
+		<Unit filename="Game/ObjectState/EventTriggeringState.h" />
+		<Unit filename="Game/ObjectState/GameObjectState.cpp" />
+		<Unit filename="Game/ObjectState/GameObjectState.h" />
+		<Unit filename="Game/PlayerUpdater.h" />
+		<Unit filename="Game/Resource/GraphicsResourceStorage.cpp" />
+		<Unit filename="Game/Resource/GraphicsResourceStorage.h" />
+		<Unit filename="Game/State/GameState.h" />
+		<Unit filename="Game/State/MenuState.hpp" />
+		<Unit filename="Game/State/SpaceInvadersState.cpp" />
+		<Unit filename="Game/State/SpaceInvadersState.hpp" />
+		<Unit filename="Game/Updater.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
